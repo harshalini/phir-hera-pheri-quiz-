@@ -4,7 +4,7 @@ var score = 0;
 
 const queBank = [
   {
-    question: "What is name of Akshay Kumar character in the film?\na. Baburao\nb. Raju\nc. Shyam\n",
+    question: "What is name of Akshay Kumar's character in the film?\na. Baburao\nb. Raju\nc. Shyam\n",
     answer: "b"
   }, {
     question:
@@ -14,7 +14,15 @@ const queBank = [
     question:
     "Fill the blank space: Ye ____ ka style hai\na. Shyam\nb. Baburao\nc. Raju\n",
     answer: "b"
-  }, 
+  }, {
+    question: 
+    "Complete the dialogue: Utha le re baba, utha le... Mereko nahi re, _____ ko utha le.\na. is shyam\nb. in dono\nc. is raju\n ",
+    answer: "b"
+  }, {
+    question:
+    "What is Bipasha Basu's character name in movie?\na. Anuradha\nb. Radha\nc. Anjali\n",
+    answer: "a"
+  } 
 ]
 
 function welcome() {
